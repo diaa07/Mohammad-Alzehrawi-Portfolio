@@ -1,0 +1,73 @@
+nav{
+    background-color: var(--main-gold);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: var(--main-background);
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.nav-left-sec, .nav-right-sec{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.desktop-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 100px;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 240px;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    padding-left: 108px;
+    cursor: pointer;
+}
+
+.logo a{
+    all:unset;
+}
+
+.nav-element{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-element:hover{
+    transform: translateY(-4px);
+}
+
+.nav-a{
+    all:unset;
+}
+
+@keyframes fadeIn {
+    from {
+        scale: 0;
+        opacity: 0;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
