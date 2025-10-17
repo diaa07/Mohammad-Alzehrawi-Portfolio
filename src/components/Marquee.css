@@ -1,0 +1,32 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  background-color: transparent;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+.marquee-track {
+  display: flex;
+  animation: scroll-left 30s linear infinite;
+}
+.marquee-item {
+  height: 60px;
+  width: auto;
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
