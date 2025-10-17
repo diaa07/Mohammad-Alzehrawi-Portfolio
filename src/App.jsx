@@ -5,8 +5,8 @@ import MobileNavBar from "./components/MobileNavBar.jsx";
 export default function App() {
   return (
     <>
-      <MobileNavBar />
       <Home />;
+      <MobileNavBar />
     </>
   );
 }
