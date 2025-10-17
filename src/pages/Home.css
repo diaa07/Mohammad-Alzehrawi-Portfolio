@@ -79,6 +79,7 @@
 
 .name-container {
   display: none;
+  animation: appearFromLeft 1s ease-in-out;
 }
 
 @keyframes appearFromLeft {
@@ -150,7 +151,7 @@
   .image-container {
     width: 200px;
     height: 200px;
-    animation: appearFromRight 1s ease-in-out;
+    animation: infiniteLoop 10s ease, appearFromRight 1s ease-in-out;
   }
 
   .welcoming-text {
@@ -175,6 +176,23 @@
     font-size: 22px;
     font-weight: 800;
     color: var(--main-gold);
+  }
+  @keyframes infiniteLoop {
+    0% {
+      transform: translate(10px, 10px);
+    }
+    25% {
+      transform: translate(10px, -10px);
+    }
+    50% {
+      transform: translate(-10px, 10px);
+    }
+    75% {
+      transform: translate(-10px, -10px);
+    }
+    100% {
+      transform: translate(10px, 10px);
+    }
   }
 }
 
