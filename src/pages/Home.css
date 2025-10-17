@@ -151,7 +151,7 @@
   .image-container {
     width: 200px;
     height: 200px;
-    animation: infiniteLoop 10s ease, appearFromRight 1s ease-in-out;
+    animation: infiniteLoop 10s ease infinite, appearFromRight 1s ease-in-out;
   }
 
   .welcoming-text {
