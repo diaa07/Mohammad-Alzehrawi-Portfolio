@@ -71,3 +71,23 @@ nav{
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .desktop-nav{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-list{
+        gap: 50px;
+        padding-left: 140px;
+    }
+    .logo{
+        padding-left: 60px;
+        font-size: 28px;
+    }
+    .nav-element{
+        font-size: 20px;
+    }
+}

@@ -21,7 +21,7 @@ export default function NavBar() {
     </ul>
   );
   return (
-    <nav>
+    <nav className="desktop-nav">
       <div className="nav-left-sec">
         <div className="logo">
           Mohammad Alzehrawi<a href="#home"></a>
