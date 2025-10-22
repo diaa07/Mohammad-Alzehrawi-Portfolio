@@ -1,22 +1,31 @@
+import { useLocation, useNavigate } from "react-router-dom";
 import "./NavBar.css";
 
 export default function NavBar() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const handleNavClick = (id) => {
+    if (location.pathname !== "/") {
+      navigate("/", { replace: false });
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    } else {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const navMenu = (
     <ul className="nav-list">
       <li className="nav-element">
-        <a className="nav-a" href="#home">
-          Home
-        </a>
+        <a onClick={() => handleNavClick("home")}>Home</a>
       </li>
       <li className="nav-element">
-        <a className="nav-a" href="#portfolio">
-          Portfolio
-        </a>
+        <a onClick={() => handleNavClick("portfolio")}>Portfolio</a>
       </li>
       <li className="nav-element">
-        <a className="nav-a" href="#contact">
-          Contact
-        </a>
+        <a onClick={() => handleNavClick("contact")}>Contact</a>
       </li>
     </ul>
   );
@@ -24,7 +33,9 @@ export default function NavBar() {
     <nav className="desktop-nav">
       <div className="nav-left-sec">
         <div className="logo">
-          Mohammad Alzehrawi<a href="#home"></a>
+          <a className="logo" onClick={() => handleNavClick("home")}>
+            Mohammad Alzehrawi
+          </a>
         </div>
       </div>
       <div className="nav-right-sec">

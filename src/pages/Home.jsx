@@ -5,8 +5,7 @@ import profileImage from "../assets/personalPhoto.jpg";
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <div className="home">
+      <section id="home" className="home">
         <div className="home-left-sec">
           <div className="welcoming-text">
             <h1>
@@ -19,7 +18,7 @@ export default function Home() {
           </div>
           <div className="button-container">
             <a href="#portfolio">
-              <button>View My Work {`>`}</button>
+              <button className="button-cta">View My Work {`>`}</button>
             </a>
           </div>
         </div>
@@ -29,7 +28,7 @@ export default function Home() {
             <img src={profileImage} alt="" />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
