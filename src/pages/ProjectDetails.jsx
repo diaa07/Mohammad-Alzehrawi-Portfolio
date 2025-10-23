@@ -94,7 +94,7 @@ export default function ProjectDetails() {
 
         {project.images && project.images.length > 0 && (
           <div className="details-section images-section">
-            <h2 className="section-title">Campaign Snapshots</h2>
+            <h2 className="section-title">Result images</h2>
             <div className="images-grid-container">
               {project.images.map((image, index) => (
                 <div key={index} className="image-wrapper">

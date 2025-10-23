@@ -23,7 +23,7 @@ export const clients = [
         url: "https://drive.google.com/file/d/1Xc9nmj19RyrHAwzfvVtWNWmF2dYVY9ev/view?usp=drive_link",
       },
       {
-        name: "campaign review",
+        name: "campaign strategy",
         url: "https://docs.google.com/presentation/d/1gPU9jg50Lc2bo5w4WNs4kAVqsEHDQKnQ/edit?usp=drive_link&ouid=105811045440675393778&rtpof=true&sd=true",
       },
       {
@@ -31,7 +31,7 @@ export const clients = [
         url: "https://drive.google.com/file/d/1LblR4xsYIB02zvZlf4B-M_fsE80pPp3-/view?usp=sharing",
       },
       {
-        name: "yachts for sale",
+        name: "newsletter report",
         url: "https://drive.google.com/file/d/1elziKnad7gdEprV3-1oxJPfTnIkpEelg/view?usp=drive_link",
       },
     ],
@@ -70,15 +70,15 @@ export const clients = [
     ],
     links: [
       {
-        name: "july ads report",
+        name: " july ewc riadh ad report",
         url: "https://drive.google.com/file/d/1h2NE47FRUDOdUlPgKNnM3ttuFN6xwHkt/view?usp=drive_link",
       },
       {
-        name: "august ads report",
+        name: "august ewc riadh ad report",
         url: "https://drive.google.com/file/d/18eluZ-Fy2e464uEqbj7byP7wwlfAfUo7/view?usp=drive_link",
       },
       {
-        name: "client results",
+        name: "campaign result",
         url: "https://drive.google.com/file/d/1w_Z3cvOXJJy9iu76z5yCgKz44LRNyS6y/view?usp=drive_link",
       },
       {
