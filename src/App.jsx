@@ -7,6 +7,7 @@ import Marquee from "./components/Marquee.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import ScrollToTop from "./components/scrollToTop.jsx";
 import NavBar from "./components/NavBar.jsx";
+import ContactMe from "./pages/ContactMe.jsx";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
                   <Home />
                   <Marquee />
                   <Portfolio />
+                  <ContactMe />
                 </>
               }
             />

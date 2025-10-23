@@ -8,13 +8,11 @@ export default function Home() {
       <section id="home" className="home">
         <div className="home-left-sec">
           <div className="welcoming-text">
-            <h1>
-              I’m a Marketing Specialist & content Lead with{" "}
-              <span className="gold-span">+7 years of experience</span>
-            </h1>
-            Have been creating data-driven, engaging Arabic and English content
-            across digital platforms. Skilled in SEO, storytelling, and tools
-            like Google Analytics, SEMrush, and WordPress.
+            I specialize in leading content strategy and overseeing digital
+            marketing campaigns across Meta, Google, and TikTok. My work
+            combines creative storytelling with data-driven insights to deliver
+            measurable results. Skilled in SEO, performance marketing, and tools
+            such as Google Analytics, SEMrush, and WordPress.
           </div>
           <div className="button-container">
             <a href="#portfolio">

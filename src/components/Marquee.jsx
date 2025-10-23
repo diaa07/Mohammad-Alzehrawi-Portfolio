@@ -13,7 +13,12 @@ export default function Marquee() {
     );
     setSkillIcons(loadedIcons);
   }, []);
-  const duplicatedIcons = [...skillIcons, ...skillIcons, ...skillIcons];
+  const duplicatedIcons = [
+    ...skillIcons,
+    ...skillIcons,
+    ...skillIcons,
+    ...skillIcons,
+  ];
   if (skillIcons.length === 0) {
     return null;
   }

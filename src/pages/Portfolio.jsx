@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { clients } from "../js/ProjectList";
 import "./Portfolio.css";
+import { useRef, useEffect } from "react";
 
 const PROJECTS_PER_PAGE = 3;
 
@@ -21,12 +22,37 @@ export default function Portfolio() {
     }
   };
 
+  const projectsRef = useRef(null);
+
+  useEffect(() => {
+    const container = projectsRef.current;
+    if (!container) return;
+    const aboutElements = container.querySelectorAll(".project-card-example");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("appeared");
+        } else {
+          entry.target.classList.remove("appeared");
+        }
+      });
+    }, {});
+    aboutElements.forEach((el) => {
+      observer.observe(el);
+    });
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <section id="portfolio" className="portfolio-section">
       <h2 className="portfolio-title">My Work & Case Studies</h2>
-      <div className="projects-grid">
+      <div className="projects-grid" ref={projectsRef}>
         {currentProjects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <div className="project-card-example appeared" key={"card" + index}>
+            <ProjectCard key={index} project={project} />
+          </div>
         ))}
       </div>
       {totalPages > 1 && (
