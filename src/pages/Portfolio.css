@@ -1,5 +1,6 @@
 .portfolio-section {
   padding: 60px 112px;
+  padding-bottom: 0 !important;
   min-height: 80vh;
 }
 
@@ -89,7 +90,6 @@
 @media (max-width: 768px) {
   .portfolio-section {
     padding: 40px 20px;
-    padding-bottom: 80px !important;
   }
   .portfolio-title {
     font-size: 30px;
