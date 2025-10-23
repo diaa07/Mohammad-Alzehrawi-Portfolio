@@ -1,6 +1,6 @@
 import homeLogo from "../assets/home.png";
 import portfolioLogo from "../assets/portfolio.png";
-import contactLogo from "../assets/contact.png";
+import contactLogo from "../assets/contact5.png";
 import "./MoblieNavBar.css";
 import { useLocation, useNavigate } from "react-router-dom";
 

@@ -1,45 +1,59 @@
 export const clients = [
   {
-    name: "Al Rais Investments",
-    industry: "Investment & Financial Services",
-    challenges:
-      "Weak digital communication with potential investors, content was not optimized for SEO or paid campaigns.",
+    name: "Yachtfinds.com",
+    industry: "Luxury Yachts & Marine Services",
+    challenges: [
+      "Lack of integrated digital strategy and weak online presence, limited global coverage for exhibitions.",
+    ],
     solutions: [
-      "Created a comprehensive content calendar for digital channels.",
+      "Developed a full content strategy and social media calendar.",
       "Managed Google and Meta advertising campaigns.",
-      "Optimized articles and website content (SEO) and translated content across required languages.",
+      "Created and translated website content.",
+      "Covered international exhibitions: Dubai, Abu Dhabi, Monaco, Dubai Pre-owned Boat Show.",
+      "Designed a Content Model and newsletter strategy to continuously engage clients.",
     ],
     results: [
-      "Content reach to potential investors increased by ~50%.",
-      "Click-through rate on campaigns improved by ~25%.",
-      "Engagement on social pages rose by ~40% over 3 months.",
+      "Social media engagement increased by ~55%",
+      "Global campaign reach improved by ~65%",
+      "Bookings and sales increased by ~40% during exhibition seasons.",
     ],
     links: [
       {
-        name: "content plan",
-        url: "https://docs.google.com/document/d/1LE-KJHoN_t_OgQNdKGCqheka8xPRJ1BX7HiOc0-wzOU/edit?tab=t.0",
+        name: "social media plan",
+        url: "https://drive.google.com/file/d/1Xc9nmj19RyrHAwzfvVtWNWmF2dYVY9ev/view?usp=drive_link",
+      },
+      {
+        name: "campaign review",
+        url: "https://docs.google.com/presentation/d/1gPU9jg50Lc2bo5w4WNs4kAVqsEHDQKnQ/edit?usp=drive_link&ouid=105811045440675393778&rtpof=true&sd=true",
+      },
+      {
+        name: "meta ads strategy",
+        url: "https://drive.google.com/file/d/1LblR4xsYIB02zvZlf4B-M_fsE80pPp3-/view?usp=sharing",
+      },
+      {
+        name: "yachts for sale",
+        url: "https://drive.google.com/file/d/1elziKnad7gdEprV3-1oxJPfTnIkpEelg/view?usp=drive_link",
       },
     ],
     images: [
       {
-        src: "clients/Al Rais Investments/google-ads.png",
-        alt: "Google Ads Campaign",
+        src: "clients/YachtFinds/image1.png",
+        alt: "image1",
       },
       {
-        src: "clients/Al Rais Investments/meta-ads.png",
-        alt: "Meta Ads Campaign",
+        src: "clients/YachtFinds/image2.png",
+        alt: "image2",
       },
       {
-        src: "clients/Al Rais Investments/seo.png",
-        alt: "SEO Optimization",
+        src: "clients/YachtFinds/image3.png",
+        alt: "image3",
       },
       {
-        src: "clients/Al Rais Investments/seo2.png",
-        alt: "SEO Optimization",
+        src: "clients/YachtFinds/image4.png",
+        alt: "image4",
       },
     ],
-  },
-  {
+  },{
     name: "Al Rais Holiday",
     industry: "Travel & Tourism",
     challenges:
@@ -116,6 +130,70 @@ export const clients = [
     ],
   },
   {
+    name: "Al Rais Investments",
+    industry: "Investment & Financial Services",
+    challenges:
+      "Weak digital communication with potential investors, content was not optimized for SEO or paid campaigns.",
+    solutions: [
+      "Created a comprehensive content calendar for digital channels.",
+      "Managed Google and Meta advertising campaigns.",
+      "Optimized articles and website content (SEO) and translated content across required languages.",
+    ],
+    results: [
+      "Content reach to potential investors increased by ~50%.",
+      "Click-through rate on campaigns improved by ~25%.",
+      "Engagement on social pages rose by ~40% over 3 months.",
+    ],
+    links: [
+      {
+        name: "content plan",
+        url: "https://docs.google.com/document/d/1LE-KJHoN_t_OgQNdKGCqheka8xPRJ1BX7HiOc0-wzOU/edit?tab=t.0",
+      },
+    ],
+    images: [
+      {
+        src: "clients/Al Rais Investments/google-ads.png",
+        alt: "Google Ads Campaign",
+      },
+      {
+        src: "clients/Al Rais Investments/meta-ads.png",
+        alt: "Meta Ads Campaign",
+      },
+      {
+        src: "clients/Al Rais Investments/seo.png",
+        alt: "SEO Optimization",
+      },
+      {
+        src: "clients/Al Rais Investments/seo2.png",
+        alt: "SEO Optimization",
+      },
+    ],
+  },{
+    name: "Sotheby’s International Realty",
+    industry: "Luxury Real Estate",
+    challenges: [
+      "Digital content was disorganized, articles and web pages were not SEO optimized, and there was no consistency between Arabic and English content.",
+    ],
+    solutions: [
+      "Wrote high-quality articles reflecting the brand’s luxury image.",
+      "Translated content accurately between Arabic and English to maintain message consistency",
+      "Optimized content for SEO to improve website visibility.",
+      "Crafted website copy in a polished, engaging style aligned with the brand identity.",
+    ],
+    results: [
+      "Organic traffic increased by ~45% in 3 months.",
+      "Improved ranking for key search terms (Top 10).",
+      "100% content consistency between Arabic and English versions.",
+    ],
+    images: [],
+    links: [
+      {
+        name: "Journal",
+        url: "https://abudhabi-sothebysrealty.ae/ar/the-journal",
+      },
+    ],
+  },
+  {
     name: "Sitters",
     industry: "Childcare & Family Services",
     challenges: [
@@ -146,84 +224,5 @@ export const clients = [
       },
     ],
   },
-  {
-    name: "Sotheby’s International Realty",
-    industry: "Luxury Real Estate",
-    challenges: [
-      "Digital content was disorganized, articles and web pages were not SEO optimized, and there was no consistency between Arabic and English content.",
-    ],
-    solutions: [
-      "Wrote high-quality articles reflecting the brand’s luxury image.",
-      "Translated content accurately between Arabic and English to maintain message consistency",
-      "Optimized content for SEO to improve website visibility.",
-      "Crafted website copy in a polished, engaging style aligned with the brand identity.",
-    ],
-    results: [
-      "Organic traffic increased by ~45% in 3 months.",
-      "Improved ranking for key search terms (Top 10).",
-      "100% content consistency between Arabic and English versions.",
-    ],
-    images: [],
-    links: [
-      {
-        name: "Journal",
-        url: "https://abudhabi-sothebysrealty.ae/ar/the-journal",
-      },
-    ],
-  },
-  {
-    name: "Yachtfinds.com",
-    industry: "Luxury Yachts & Marine Services",
-    challenges: [
-      "Lack of integrated digital strategy and weak online presence, limited global coverage for exhibitions.",
-    ],
-    solutions: [
-      "Developed a full content strategy and social media calendar.",
-      "Managed Google and Meta advertising campaigns.",
-      "Created and translated website content.",
-      "Covered international exhibitions: Dubai, Abu Dhabi, Monaco, Dubai Pre-owned Boat Show.",
-      "Designed a Content Model and newsletter strategy to continuously engage clients.",
-    ],
-    results: [
-      "Social media engagement increased by ~55%",
-      "Global campaign reach improved by ~65%",
-      "Bookings and sales increased by ~40% during exhibition seasons.",
-    ],
-    links: [
-      {
-        name: "social media plan",
-        url: "https://drive.google.com/file/d/1Xc9nmj19RyrHAwzfvVtWNWmF2dYVY9ev/view?usp=drive_link",
-      },
-      {
-        name: "campaign review",
-        url: "https://docs.google.com/presentation/d/1gPU9jg50Lc2bo5w4WNs4kAVqsEHDQKnQ/edit?usp=drive_link&ouid=105811045440675393778&rtpof=true&sd=true",
-      },
-      {
-        name: "meta ads strategy",
-        url: "https://drive.google.com/file/d/1LblR4xsYIB02zvZlf4B-M_fsE80pPp3-/view?usp=sharing",
-      },
-      {
-        name: "yachts for sale",
-        url: "https://drive.google.com/file/d/1elziKnad7gdEprV3-1oxJPfTnIkpEelg/view?usp=drive_link",
-      },
-    ],
-    images: [
-      {
-        src: "clients/YachtFinds/image1.png",
-        alt: "image1",
-      },
-      {
-        src: "clients/YachtFinds/image2.png",
-        alt: "image2",
-      },
-      {
-        src: "clients/YachtFinds/image3.png",
-        alt: "image3",
-      },
-      {
-        src: "clients/YachtFinds/image4.png",
-        alt: "image4",
-      },
-    ],
-  },
+  
 ];

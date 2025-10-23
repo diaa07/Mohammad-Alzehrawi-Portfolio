@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { clients } from "../js/ProjectList";
 import NavBar from "../components/NavBar";
-import { useState, useEffect } from "react";
 import "./ProjectDetails.css";
 
 const BASE_URL = import.meta.env.BASE_URL;
@@ -16,18 +15,6 @@ export default function ProjectDetails() {
   const project = clients.find(
     (client) => client.name.toLowerCase() === formattedName.toLowerCase()
   );
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    if (!project?.images?.length) return;
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) =>
-        prev === project.images.length - 1 ? 0 : prev + 1
-      );
-    }, 6000);
-    return () => clearInterval(interval);
-  }, [project]);
 
   if (!project) {
     return (
@@ -85,33 +72,38 @@ export default function ProjectDetails() {
           </ul>
         </div>
 
-        {project.images && project.images.length > 0 && (
-          <div className="details-section images-section">
-            <h2 className="section-title">Campaign Snapshots</h2>
-            <div className="slider-container">
-              <img
-                src={resolveImagePath(project.images[currentIndex].src)}
-                alt={project.images[currentIndex].alt}
-                className="slider-image"
-              />
-            </div>
-          </div>
-        )}
-
         {project.links && project.links.length > 0 && (
           <div className="details-section links-section">
-            <h2 className="section-title">Relevant Links</h2>
-            <div className="links-grid">
+            <h2 className="section-title">Work and Results Links</h2>
+            <div className="project-links-grid">
               {project.links.map((link, index) => (
                 <a
                   key={index}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="external-link-btn"
+                  className="project-external-link-btn"
                 >
                   {link.name}
+                  <span className="link-icon">↗</span>
                 </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {project.images && project.images.length > 0 && (
+          <div className="details-section images-section">
+            <h2 className="section-title">Campaign Snapshots</h2>
+            <div className="images-grid-container">
+              {project.images.map((image, index) => (
+                <div key={index} className="image-wrapper">
+                  <img
+                    src={resolveImagePath(image.src)}
+                    alt={image.alt}
+                    className="static-project-image"
+                  />
+                </div>
               ))}
             </div>
           </div>
