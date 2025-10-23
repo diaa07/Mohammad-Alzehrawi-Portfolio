@@ -12,7 +12,7 @@ import ContactMe from "./pages/ContactMe.jsx";
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <ScrollToTop />
         <NavBar />
         <div className="App-container">
@@ -32,7 +32,7 @@ export default function App() {
           </Routes>
           <MobileNavBar />
         </div>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
