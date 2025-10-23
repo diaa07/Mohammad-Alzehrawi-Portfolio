@@ -3,6 +3,7 @@ import "./Contact.css";
 import whatsappIcon from "../assets/icons/whatsappIcon.png";
 import linkedinIcon from "../assets/icons/linkedInIcon.png";
 import emailIcon from "../assets/icons/emailIcon.png";
+import busIcon from "../assets/icons/whatsappBusIcon.png";
 
 export default function ContactMe() {
   const contactList = [
@@ -18,7 +19,7 @@ export default function ContactMe() {
     },
     {
       id: "con2",
-      image: whatsappIcon,
+      image: busIcon,
       url: "https://wa.me/971504043860",
     },
     {
@@ -29,7 +30,7 @@ export default function ContactMe() {
   ];
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id="contact">
       <h1>Contact Me</h1>
       <div className="contact-grid">
         {contactList.map((cn) => {

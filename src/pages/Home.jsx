@@ -8,6 +8,10 @@ export default function Home() {
       <section id="home" className="home">
         <div className="home-left-sec">
           <div className="welcoming-text">
+            <h1>
+              Marketing Specialist & Content Lead with{" "}
+              <span className="gold-span">+7 years of experience</span>{" "}
+            </h1>
             I specialize in leading content strategy and overseeing digital
             marketing campaigns across Meta, Google, and TikTok. My work
             combines creative storytelling with data-driven insights to deliver
