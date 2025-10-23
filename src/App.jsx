@@ -12,7 +12,7 @@ import ContactMe from "./pages/ContactMe.jsx";
 export default function App() {
   return (
     <>
-      <Router basename="/Mohammad-Alzehrawi-Portfolio/">
+      <Router>
         <ScrollToTop />
         <NavBar />
         <div className="App-container">
