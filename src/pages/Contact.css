@@ -10,11 +10,10 @@
 .contact-grid {
   width: 100%;
   max-width: 1000px;
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding: 0;
+  align-items: center;
 }
 
 .contact-link-container {
@@ -42,8 +41,6 @@
 
 @media (max-width: 600px) {
   .contact-grid {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    gap: 0;
     padding-bottom: 60px;
   }
   .contact-link-container a img {

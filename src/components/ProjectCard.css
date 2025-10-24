@@ -35,7 +35,9 @@
 
 .card-header .card-head-left img {
   width: 100px;
+  height: 100px;
   margin-right: 24px;
+  border-radius: 50px;
 }
 .project-name {
   font-size: 24px;

@@ -2,6 +2,7 @@ import yachtFinds from "../assets/logos/Yacht.png";
 import sitters from "../assets/logos/sitters.png"
 import southerys from "../assets/logos/sotherys.png"
 import alRais from "../assets/logos/Al Rais Holidays.png"
+import sotherys from "../assets/logos/sothebysrealty_logo.jpeg"
 
 export const clients = [
   {
@@ -137,7 +138,7 @@ export const clients = [
     ],
   },
   {
-    logo:alRais,
+    logo:southerys,
     name: "Al Rais Investments",
     industry: "Investment & Financial Services",
     challenges:
@@ -177,7 +178,7 @@ export const clients = [
       },
     ],
   },{
-    logo: southerys,
+    logo: sotherys,
     name: "Sotheby’s International Realty",
     industry: "Luxury Real Estate",
     challenges: [
