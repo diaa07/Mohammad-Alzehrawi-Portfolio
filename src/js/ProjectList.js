@@ -1,6 +1,11 @@
+import yachtFinds from "../assets/logos/Yacht.png";
+import sitters from "../assets/logos/sitters.png"
+import southerys from "../assets/logos/sotherys.png"
+import alRais from "../assets/logos/Al Rais Holidays.png"
+
 export const clients = [
   {
-    logo:"src/assets/logos/Yacht.png",
+    logo:yachtFinds,
     name: "Yachtfinds.com",
     industry: "Luxury Yachts & Marine Services",
     challenges: [
@@ -55,7 +60,7 @@ export const clients = [
       },
     ],
   },{
-    logo:"src/assets/logos/Al Rais Holidays.png",
+    logo: alRais,
     name: "Al Rais Holiday",
     industry: "Travel & Tourism",
     challenges:
@@ -132,7 +137,7 @@ export const clients = [
     ],
   },
   {
-    logo:"src/assets/logos/Al Rais Holidays.png",
+    logo:alRais,
     name: "Al Rais Investments",
     industry: "Investment & Financial Services",
     challenges:
@@ -172,7 +177,7 @@ export const clients = [
       },
     ],
   },{
-    logo:"src/assets/logos/sotherys.png",
+    logo: southerys,
     name: "Sotheby’s International Realty",
     industry: "Luxury Real Estate",
     challenges: [
@@ -198,7 +203,7 @@ export const clients = [
     ],
   },
   {
-    logo:"src/assets/logos/sitters.png",
+    logo: sitters,
     name: "Sitters",
     industry: "Childcare & Family Services",
     challenges: [
@@ -229,5 +234,4 @@ export const clients = [
       },
     ],
   },
-  
 ];
