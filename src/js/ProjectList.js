@@ -1,12 +1,6 @@
-import yachtFinds from "../assets/logos/Yacht.png";
-import sitters from "../assets/logos/sitters.png"
-import southerys from "../assets/logos/sotherys.png"
-import alRais from "../assets/logos/Al Rais Holidays.png"
-import sotherys from "../assets/logos/sothebysrealty_logo.jpeg"
-
 export const clients = [
   {
-    logo:yachtFinds,
+    logo: "/clients/logos/Yacht.png",
     name: "Yachtfinds.com",
     industry: "Luxury Yachts & Marine Services",
     challenges: [
@@ -43,25 +37,14 @@ export const clients = [
       },
     ],
     images: [
-      {
-        src: "clients/YachtFinds/image1.png",
-        alt: "image1",
-      },
-      {
-        src: "clients/YachtFinds/image2.png",
-        alt: "image2",
-      },
-      {
-        src: "clients/YachtFinds/image3.png",
-        alt: "image3",
-      },
-      {
-        src: "clients/YachtFinds/image4.png",
-        alt: "image4",
-      },
+      { src: "/clients/YachtFinds/image1.png", alt: "image1" },
+      { src: "/clients/YachtFinds/image2.png", alt: "image2" },
+      { src: "/clients/YachtFinds/image3.png", alt: "image3" },
+      { src: "/clients/YachtFinds/image4.png", alt: "image4" },
     ],
-  },{
-    logo: alRais,
+  },
+  {
+    logo: "/clients/logos/Al Rais Holidays.png",
     name: "Al Rais Holiday",
     industry: "Travel & Tourism",
     challenges:
@@ -78,7 +61,7 @@ export const clients = [
     ],
     links: [
       {
-        name: " july ewc riadh ad report",
+        name: "july ewc riadh ad report",
         url: "https://drive.google.com/file/d/1h2NE47FRUDOdUlPgKNnM3ttuFN6xwHkt/view?usp=drive_link",
       },
       {
@@ -93,52 +76,22 @@ export const clients = [
         name: "Germany campaign Strategy",
         url: "https://drive.google.com/file/d/10W2QjfSO6a16B6ACkytL5glPbEuOR9td/view?usp=sharing",
       },
-      {
-        name: "instagram post",
-        url: "https://www.instagram.com/p/DOGTRqqj7gl/?img_index=1",
-      },
-      {
-        name: "instagram post",
-        url: "https://www.instagram.com/p/DNLVQCnuJG4/?img_index=1",
-      },
-      {
-        name: "instagram post",
-        url: "https://www.instagram.com/p/DNBHides253/",
-      },
-      {
-        name: "instagram post",
-        url: "https://www.instagram.com/p/DNDng7WxAMQ/",
-      },
-      {
-        name: "instagram reel",
-        url: "https://www.instagram.com/reel/DJ3xKo5J_C6/",
-      },
-      {
-        name: "instagram reel",
-        url: "https://www.instagram.com/reel/DJn8snfiPva/",
-      },
+      { name: "instagram post", url: "https://www.instagram.com/p/DOGTRqqj7gl/?img_index=1" },
+      { name: "instagram post", url: "https://www.instagram.com/p/DNLVQCnuJG4/?img_index=1" },
+      { name: "instagram post", url: "https://www.instagram.com/p/DNBHides253/" },
+      { name: "instagram post", url: "https://www.instagram.com/p/DNDng7WxAMQ/" },
+      { name: "instagram reel", url: "https://www.instagram.com/reel/DJ3xKo5J_C6/" },
+      { name: "instagram reel", url: "https://www.instagram.com/reel/DJn8snfiPva/" },
     ],
     images: [
-      {
-        src: "clients/Al Rais Holiday/facebook-ads-performence.png",
-        alt: "Facebook Ads Performance",
-      },
-      {
-        src: "clients/Al Rais Holiday/google-ads.png",
-        alt: "Google Ads Campaign",
-      },
-      {
-        src: "clients/Al Rais Holiday/instagram-ads-performence.png",
-        alt: "Instagram Ads Performance",
-      },
-      {
-        src: "clients/Al Rais Holiday/tiktok-ads-performence.png",
-        alt: "TikTok Ads Performance",
-      },
+      { src: "/clients/Al Rais Holiday/facebook-ads-performence.png", alt: "Facebook Ads Performance" },
+      { src: "/clients/Al Rais Holiday/google-ads.png", alt: "Google Ads Campaign" },
+      { src: "/clients/Al Rais Holiday/instagram-ads-performence.png", alt: "Instagram Ads Performance" },
+      { src: "/clients/Al Rais Holiday/tiktok-ads-performence.png", alt: "TikTok Ads Performance" },
     ],
   },
   {
-    logo:southerys,
+    logo: "/clients/logos/sotherys.png",
     name: "Al Rais Investments",
     industry: "Investment & Financial Services",
     challenges:
@@ -160,25 +113,14 @@ export const clients = [
       },
     ],
     images: [
-      {
-        src: "clients/Al Rais Investments/google-ads.png",
-        alt: "Google Ads Campaign",
-      },
-      {
-        src: "clients/Al Rais Investments/meta-ads.png",
-        alt: "Meta Ads Campaign",
-      },
-      {
-        src: "clients/Al Rais Investments/seo.png",
-        alt: "SEO Optimization",
-      },
-      {
-        src: "clients/Al Rais Investments/seo2.png",
-        alt: "SEO Optimization",
-      },
+      { src: "/clients/Al Rais Investments/google-ads.png", alt: "Google Ads Campaign" },
+      { src: "/clients/Al Rais Investments/meta-ads.png", alt: "Meta Ads Campaign" },
+      { src: "/clients/Al Rais Investments/seo.png", alt: "SEO Optimization" },
+      { src: "/clients/Al Rais Investments/seo2.png", alt: "SEO Optimization" },
     ],
-  },{
-    logo: sotherys,
+  },
+  {
+    logo: "/clients/logos/sothebysrealty_logo.jpeg",
     name: "Sotheby’s International Realty",
     industry: "Luxury Real Estate",
     challenges: [
@@ -195,16 +137,16 @@ export const clients = [
       "Improved ranking for key search terms (Top 10).",
       "100% content consistency between Arabic and English versions.",
     ],
-    images: [],
     links: [
       {
         name: "Journal",
         url: "https://abudhabi-sothebysrealty.ae/ar/the-journal",
       },
     ],
+    images: [],
   },
   {
-    logo: sitters,
+    logo: "/clients/logos/sitters.png",
     name: "Sitters",
     industry: "Childcare & Family Services",
     challenges: [
@@ -222,7 +164,7 @@ export const clients = [
       "Trust among new clients increased by ~45%",
     ],
     images: [
-      { src: "clients/Sitters/results.png", alt: "results" },
+      { src: "/clients/Sitters/results.png", alt: "results" },
     ],
     links: [
       {
