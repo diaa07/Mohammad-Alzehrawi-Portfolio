@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // تعيين المسار الأساسي كنسبي
+  base: '/', // تعيين المسار الأساسي كنسبي
 })

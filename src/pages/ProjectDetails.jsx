@@ -5,10 +5,6 @@ import "./ProjectDetails.css";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
-const resolveImagePath = (src) => {
-  return `${BASE_URL}${src.startsWith("/") ? src.substring(1) : src}`;
-};
-
 export default function ProjectDetails() {
   const { projectName } = useParams();
   const formattedName = projectName.replace(/-/g, " ");
@@ -99,7 +95,7 @@ export default function ProjectDetails() {
               {project.images.map((image, index) => (
                 <div key={index} className="image-wrapper">
                   <img
-                    src={resolveImagePath(image.src)}
+                    src={image.src}
                     alt={image.alt}
                     className="static-project-image"
                   />
