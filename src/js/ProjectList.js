@@ -37,10 +37,10 @@ export const clients = [
       },
     ],
     images: [
-      { src: "/clients/YachtFinds/image1.png", alt: "image1" },
-      { src: "/clients/YachtFinds/image2.png", alt: "image2" },
-      { src: "/clients/YachtFinds/image3.png", alt: "image3" },
-      { src: "/clients/YachtFinds/image4.png", alt: "image4" },
+      { src: "../clients/YachtFinds/image1.png", alt: "image1" },
+      { src: "../clients/YachtFinds/image2.png", alt: "image2" },
+      { src: "../clients/YachtFinds/image3.png", alt: "image3" },
+      { src: "../clients/YachtFinds/image4.png", alt: "image4" },
     ],
   },
   {
@@ -84,10 +84,10 @@ export const clients = [
       { name: "instagram reel", url: "https://www.instagram.com/reel/DJn8snfiPva/" },
     ],
     images: [
-      { src: "/clients/Al Rais Holiday/facebook-ads-performence.png", alt: "Facebook Ads Performance" },
-      { src: "/clients/Al Rais Holiday/google-ads.png", alt: "Google Ads Campaign" },
-      { src: "/clients/Al Rais Holiday/instagram-ads-performence.png", alt: "Instagram Ads Performance" },
-      { src: "/clients/Al Rais Holiday/tiktok-ads-performence.png", alt: "TikTok Ads Performance" },
+      { src: "../clients/Al Rais Holiday/facebook-ads-performence.png", alt: "Facebook Ads Performance" },
+      { src: "../clients/Al Rais Holiday/google-ads.png", alt: "Google Ads Campaign" },
+      { src: "../clients/Al Rais Holiday/instagram-ads-performence.png", alt: "Instagram Ads Performance" },
+      { src: "../clients/Al Rais Holiday/tiktok-ads-performence.png", alt: "TikTok Ads Performance" },
     ],
   },
   {
@@ -113,10 +113,10 @@ export const clients = [
       },
     ],
     images: [
-      { src: "/clients/Al Rais Investments/google-ads.png", alt: "Google Ads Campaign" },
-      { src: "/clients/Al Rais Investments/meta-ads.png", alt: "Meta Ads Campaign" },
-      { src: "/clients/Al Rais Investments/seo.png", alt: "SEO Optimization" },
-      { src: "/clients/Al Rais Investments/seo2.png", alt: "SEO Optimization" },
+      { src: "../clients/Al Rais Investments/google-ads.png", alt: "Google Ads Campaign" },
+      { src: "../clients/Al Rais Investments/meta-ads.png", alt: "Meta Ads Campaign" },
+      { src: "../clients/Al Rais Investments/seo.png", alt: "SEO Optimization" },
+      { src: "../clients/Al Rais Investments/seo2.png", alt: "SEO Optimization" },
     ],
   },
   {
@@ -164,7 +164,7 @@ export const clients = [
       "Trust among new clients increased by ~45%",
     ],
     images: [
-      { src: "/clients/Sitters/results.png", alt: "results" },
+      { src: "../clients/Sitters/results.png", alt: "results" },
     ],
     links: [
       {
