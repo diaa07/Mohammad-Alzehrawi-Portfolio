@@ -27,8 +27,16 @@
   border-bottom: 2px solid var(--main-gold);
   padding-bottom: 10px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+.card-header .card-head-left img {
+  width: 100px;
+  margin-right: 24px;
+}
 .project-name {
   font-size: 24px;
   font-weight: 700;

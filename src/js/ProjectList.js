@@ -1,5 +1,6 @@
 export const clients = [
   {
+    logo:"src/assets/logos/Yacht.png",
     name: "Yachtfinds.com",
     industry: "Luxury Yachts & Marine Services",
     challenges: [
@@ -54,6 +55,7 @@ export const clients = [
       },
     ],
   },{
+    logo:"src/assets/logos/Al Rais Holidays.png",
     name: "Al Rais Holiday",
     industry: "Travel & Tourism",
     challenges:
@@ -130,6 +132,7 @@ export const clients = [
     ],
   },
   {
+    logo:"src/assets/logos/Al Rais Holidays.png",
     name: "Al Rais Investments",
     industry: "Investment & Financial Services",
     challenges:
@@ -169,6 +172,7 @@ export const clients = [
       },
     ],
   },{
+    logo:"src/assets/logos/sotherys.png",
     name: "Sotheby’s International Realty",
     industry: "Luxury Real Estate",
     challenges: [
@@ -194,6 +198,7 @@ export const clients = [
     ],
   },
   {
+    logo:"src/assets/logos/sitters.png",
     name: "Sitters",
     industry: "Childcare & Family Services",
     challenges: [
