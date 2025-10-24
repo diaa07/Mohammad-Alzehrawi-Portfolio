@@ -1,6 +1,6 @@
 export const clients = [
   {
-    logo: "/clients/logos/Yacht.png",
+    logo: "/clients/logos/YachtFinds.png",
     name: "Yachtfinds.com",
     industry: "Luxury Yachts & Marine Services",
     challenges: [
