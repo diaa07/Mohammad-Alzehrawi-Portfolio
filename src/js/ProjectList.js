@@ -1,6 +1,29 @@
+import YachtFindsLogo from '../assets/logos/Yacht Finds.png';
+import AlRaisHolidaysLogo from '../assets/clients/logos/Al Rais Holidays.png';
+import SotherysLogo from '../assets/clients/logos/sotherys.png';
+import SothebyRealtyLogo from '../assets/clients/logos/sothebysrealty_logo.jpeg';
+import SittersLogo from '../assets/clients/logos/sitters.png';
+
+import YachtFindsImage1 from '../assets/clients/YachtFinds/image1.png';
+import YachtFindsImage2 from '../assets/clients/YachtFinds/image2.png';
+import YachtFindsImage3 from '../assets/clients/YachtFinds/image3.png';
+import YachtFindsImage4 from '../assets/clients/YachtFinds/image4.png';
+
+import ARH_Facebook from '../assets/clients/Al Rais Holiday/facebook-ads-performence.png';
+import ARH_Google from '../assets/clients/Al Rais Holiday/google-ads.png';
+import ARH_Instagram from '../assets/clients/Al Rais Holiday/instagram-ads-performence.png';
+import ARH_Tiktok from '../assets/clients/Al Rais Holiday/tiktok-ads-performence.png';
+
+import ARI_Google from '../assets/clients/Al Rais Investments/google-ads.png';
+import ARI_Meta from '../assets/clients/Al Rais Investments/meta-ads.png';
+import ARI_SEO1 from '../assets/clients/Al Rais Investments/seo.png';
+import ARI_SEO2 from '../assets/clients/Al Rais Investments/seo2.png';
+
+import Sitters_Results from '../assets/clients/Sitters/results.png';
+
+
 export const clients = [
-  {
-    logo: "/clients/logos/YachtFinds.png",
+  {logo: YachtFindsLogo,
     name: "Yachtfinds.com",
     industry: "Luxury Yachts & Marine Services",
     challenges: [
@@ -37,14 +60,14 @@ export const clients = [
       },
     ],
     images: [
-      { src: "../clients/YachtFinds/image1.png", alt: "image1" },
-      { src: "../clients/YachtFinds/image2.png", alt: "image2" },
-      { src: "../clients/YachtFinds/image3.png", alt: "image3" },
-      { src: "../clients/YachtFinds/image4.png", alt: "image4" },
+      { src: YachtFindsImage1, alt: "image1" },
+      { src: YachtFindsImage2, alt: "image2" },
+      { src: YachtFindsImage3, alt: "image3" },
+      { src: YachtFindsImage4, alt: "image4" },
     ],
   },
   {
-    logo: "/clients/logos/Al Rais Holidays.png",
+    logo: AlRaisHolidaysLogo,
     name: "Al Rais Holiday",
     industry: "Travel & Tourism",
     challenges:
@@ -84,14 +107,14 @@ export const clients = [
       { name: "instagram reel", url: "https://www.instagram.com/reel/DJn8snfiPva/" },
     ],
     images: [
-      { src: "../clients/Al Rais Holiday/facebook-ads-performence.png", alt: "Facebook Ads Performance" },
-      { src: "../clients/Al Rais Holiday/google-ads.png", alt: "Google Ads Campaign" },
-      { src: "../clients/Al Rais Holiday/instagram-ads-performence.png", alt: "Instagram Ads Performance" },
-      { src: "../clients/Al Rais Holiday/tiktok-ads-performence.png", alt: "TikTok Ads Performance" },
+      { src: ARH_Facebook, alt: "Facebook Ads Performance" },
+      { src: ARH_Google, alt: "Google Ads Campaign" },
+      { src: ARH_Instagram, alt: "Instagram Ads Performance" },
+      { src: ARH_Tiktok, alt: "TikTok Ads Performance" },
     ],
   },
   {
-    logo: "/clients/logos/sotherys.png",
+    logo: SotherysLogo,
     name: "Al Rais Investments",
     industry: "Investment & Financial Services",
     challenges:
@@ -103,7 +126,7 @@ export const clients = [
     ],
     results: [
       "Content reach to potential investors increased by ~50%.",
-      "Click-through rate on campaigns improved by ~25%.",
+      "Click-through rate on campaigns improved by ~25%",
       "Engagement on social pages rose by ~40% over 3 months.",
     ],
     links: [
@@ -113,14 +136,14 @@ export const clients = [
       },
     ],
     images: [
-      { src: "../clients/Al Rais Investments/google-ads.png", alt: "Google Ads Campaign" },
-      { src: "../clients/Al Rais Investments/meta-ads.png", alt: "Meta Ads Campaign" },
-      { src: "../clients/Al Rais Investments/seo.png", alt: "SEO Optimization" },
-      { src: "../clients/Al Rais Investments/seo2.png", alt: "SEO Optimization" },
+      { src: ARI_Google, alt: "Google Ads Campaign" },
+      { src: ARI_Meta, alt: "Meta Ads Campaign" },
+      { src: ARI_SEO1, alt: "SEO Optimization" },
+      { src: ARI_SEO2, alt: "SEO Optimization" },
     ],
   },
   {
-    logo: "/clients/logos/sothebysrealty_logo.jpeg",
+    logo: SothebyRealtyLogo,
     name: "Sotheby’s International Realty",
     industry: "Luxury Real Estate",
     challenges: [
@@ -146,7 +169,7 @@ export const clients = [
     images: [],
   },
   {
-    logo: "/clients/logos/sitters.png",
+    logo: SittersLogo,
     name: "Sitters",
     industry: "Childcare & Family Services",
     challenges: [
@@ -163,9 +186,6 @@ export const clients = [
       "Platform bookings improved by ~35%",
       "Trust among new clients increased by ~45%",
     ],
-    images: [
-      { src: "../clients/Sitters/results.png", alt: "results" },
-    ],
     links: [
       {
         name: "new content model",
@@ -175,6 +195,9 @@ export const clients = [
         name: "calender",
         url: "https://docs.google.com/document/d/16x1hmRD6HgaWf7JdAOGucrDOA-hVrvF8/edit?usp=sharing&ouid=105811045440675393778&rtpof=true&sd=true",
       },
+    ],
+    images: [
+      { src: Sitters_Results, alt: "results" },
     ],
   },
 ];
