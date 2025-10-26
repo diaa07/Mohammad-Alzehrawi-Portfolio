@@ -34,7 +34,7 @@ export default function NavBar() {
       <div className="nav-left-sec">
         <div className="logo">
           <a className="logo" onClick={() => handleNavClick("home")}>
-            Mohammad Alzehrawi
+            Mohammed Al Zihrawe
           </a>
         </div>
       </div>
