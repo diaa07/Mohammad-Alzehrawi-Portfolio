@@ -66,7 +66,7 @@ export const clients = [
       src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495678/1754227329513_srbol5.jpg",
       alt:"",
     },{
-      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495678/1754227329513_srbol5.jpg",
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495678/1754227329495_jnfkyd.jpg",
       alt:"",
     },
     ],
