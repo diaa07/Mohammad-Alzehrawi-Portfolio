@@ -34,11 +34,11 @@ export const clients = [
       "Managed Google and Meta advertising campaigns.",
       "Created and translated website content.",
       "Covered international exhibitions: Dubai, Abu Dhabi, Monaco, Dubai Pre-owned Boat Show.",
-      "Designed a Content Model and newsletter strategy to continuously engage clients.",
+      "Designed a Content Model and newsletter strategy to sustainability engage clients.",
     ],
     results: [
       "Social media engagement increased by ~55%",
-      "Global campaign reach improved by ~65%",
+      "Global campaign reachment improved by ~65%",
       "Bookings and sales increased by ~40% during exhibition seasons.",
     ],
     links: [

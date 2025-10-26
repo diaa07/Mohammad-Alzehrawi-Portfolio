@@ -12,7 +12,7 @@ export default function Home() {
               Marketing Specialist & Content Lead with{" "}
               <span className="gold-span">+7 years of experience</span>{" "}
             </h1>
-            I specialize in leading content strategy and overseeing digital
+            A specialist in leading content strategy and overseeing digital
             marketing campaigns across Meta, Google, and TikTok. My work
             combines creative storytelling with data-driven insights to deliver
             measurable results. Skilled in SEO, performance marketing, and tools
