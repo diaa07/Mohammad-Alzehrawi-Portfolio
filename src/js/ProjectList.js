@@ -25,7 +25,7 @@ import Sitters_Results from '../assets/clients/Sitters/results.png';
 export const clients = [
   {logo: YachtFindsLogo,
     name: "Yachtfinds.com",
-    industry: "Luxury Yachts & Marine Services",
+    industry: "Classified Yachting Marketplace",
     challenges: [
       "Lack of integrated digital strategy and weak online presence, limited global coverage for exhibitions.",
     ],
@@ -62,8 +62,13 @@ export const clients = [
     images: [
       { src: YachtFindsImage1, alt: "image1" },
       { src: YachtFindsImage2, alt: "image2" },
-      { src: YachtFindsImage3, alt: "image3" },
-      { src: YachtFindsImage4, alt: "image4" },
+      { src: YachtFindsImage4, alt: "image4" },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495678/1754227329513_srbol5.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495678/1754227329513_srbol5.jpg",
+      alt:"",
+    },
     ],
   },
   {
@@ -166,7 +171,19 @@ export const clients = [
         url: "https://abudhabi-sothebysrealty.ae/ar/the-journal",
       },
     ],
-    images: [],
+    images: [{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495158/1729875769862_fa6mz5.jpg",
+      alt:"",
+    }, {
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495157/1729875769975_b737ap.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495158/1729875769766_jvajun.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495158/1729875769758_jhwmlv.jpg",
+      alt:"",
+    }],
   },
   {
     logo: SittersLogo,
@@ -197,7 +214,22 @@ export const clients = [
       },
     ],
     images: [
-      { src: Sitters_Results, alt: "results" },
+      { src: Sitters_Results, alt: "results" },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495415/1751970393372_q9ezib.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495414/1751970393429_z1khsd.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495412/1751970393455_pozr8v.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495412/1751970393423_gyeo3z.jpg",
+      alt:"",
+    },{
+      src: "https://res.cloudinary.com/dfw4tdqxc/image/upload/v1761495412/1751970393380_wqysfu.jpg",
+      alt:"",
+    },
     ],
   },
 ];
