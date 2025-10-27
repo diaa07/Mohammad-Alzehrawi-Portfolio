@@ -1,5 +1,5 @@
 .marquee-container {
-  width: 100%;
+  width: 97%;
   overflow: hidden;
   display: flex;
   white-space: nowrap;
@@ -18,7 +18,7 @@
 .marquee-item {
   height: 60px;
   width: auto;
-  margin: 0 40px;
+  margin: 0 0 0 40px;
   object-fit: contain;
 }
 

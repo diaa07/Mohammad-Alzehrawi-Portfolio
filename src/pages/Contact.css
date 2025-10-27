@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin-top: 80px;
 }
@@ -40,7 +40,7 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .contact-grid {
     padding-bottom: 60px;
   }
